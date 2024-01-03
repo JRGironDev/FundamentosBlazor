@@ -1,0 +1,19 @@
+﻿@page "/"
+
+@using FundamentosBlazor.Data
+@inject IDatosDemo bd
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, Dani!</h1>
+
+Welcome to your new app.
+
+<div class="row">
+    <div class="col-md-12">
+        <img height="500" src="imagenes/dani.JPG" alt="">
+    </div>
+</div>
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+<p>El número aleatorio es: @bd.GetEdad()</p>
