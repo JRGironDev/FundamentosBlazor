@@ -29,3 +29,4 @@
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/FundamentosBlazor.pdb
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/FundamentosBlazor.genruntimeconfig.cache
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/ref/FundamentosBlazor.dll
+/Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/FundamentosBlazor.sourcelink.json
