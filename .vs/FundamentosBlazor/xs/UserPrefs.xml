@@ -1,8 +1,4 @@
-﻿<Properties StartupConfiguration="{A0B53D96-467A-4AE2-B431-851151722B0B}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.FundamentosBlazor PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{A0B53D96-467A-4AE2-B431-851151722B0B}|https">
   <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Demo1.razor">
     <Files>
       <File FileName="Pages/Demo1.razor" Line="1" Column="11" />
@@ -22,7 +18,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.FundamentosBlazor PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
 </Properties>
