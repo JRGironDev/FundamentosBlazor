@@ -20,8 +20,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/Pages/CodigoSegundoPlano.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29kaWdvU2VndW5kb1BsYW5vLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/Pages/Demos/Demo1.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGVtb3MvRGVtbzEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/Pages/FetchData.razor]

@@ -1,0 +1,20 @@
+﻿@page "/codigo-segundoplano"
+
+<h3>Código en Segundo Plano</h3>
+
+<button @onclick="MostrarMensaje">Mostrar Mensaje</button>
+
+@if (mostrarMensaje)
+{
+ <p>Hola desde el componente</p>
+}
+
+@code {
+    private bool mostrarMensaje = false;
+
+    private void MostrarMensaje()
+    {
+        mostrarMensaje = true;
+    }
+}
+
