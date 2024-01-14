@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disabled</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
@@ -10,8 +10,12 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
     <None Remove="Pages\Demos\" />
+    <None Remove="Modelos\" />
+    <None Remove="Pages\InfoPersona\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\Demos\" />
+    <Folder Include="Modelos\" />
+    <Folder Include="Pages\InfoPersona\" />
   </ItemGroup>
 </Project>
