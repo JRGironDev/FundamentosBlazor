@@ -1,8 +1,9 @@
 ﻿@layout LayoutCounterPersonalizado
 @page "/counter"
 @page "/counter/{valorInicial:int}"
+@*<PageTitle>Counter</PageTitle>*@
 
-<PageTitle>Counter</PageTitle>
+<h2>@encabezadoPagina</h2>
 
 <h1 @onmouseover="IncrementCount">Contador al pasar el mouse incrementa</h1>
 
@@ -11,17 +12,29 @@
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
 @code {
+
+    private string encabezadoPagina = "Contador";
+
     [Parameter]
     public int valorInicial { get; set; }
+
+    [Parameter]
+    public string? EncabezadoPagina { get; set; }
+
     private int currentCount = 0;
 
-        protected override void OnParametersSet()
-        {
-            base.OnParametersSet();
-            currentCount = valorInicial;
-        }
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+        currentCount = valorInicial;
 
-        private void IncrementCount()
+        if (string.IsNullOrWhiteSpace(EncabezadoPagina) == false)
+        {
+            encabezadoPagina = EncabezadoPagina;
+        }
+    }
+
+    private void IncrementCount()
     {
         currentCount++;
     }
