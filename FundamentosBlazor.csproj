@@ -13,11 +13,13 @@
     <None Remove="Modelos\" />
     <None Remove="Pages\InfoPersona\" />
     <None Remove="Pages\Transacciones\" />
+    <None Remove="Pages\VinculacionDatos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\Demos\" />
     <Folder Include="Modelos\" />
     <Folder Include="Pages\InfoPersona\" />
     <Folder Include="Pages\Transacciones\" />
+    <Folder Include="Pages\VinculacionDatos\" />
   </ItemGroup>
 </Project>

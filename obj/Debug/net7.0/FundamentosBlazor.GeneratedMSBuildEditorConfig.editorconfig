@@ -56,6 +56,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVHJhbnNhY2Npb25lcy9UcmFuc2FjY2lvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/Pages/VinculacionDatos/Libros.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmluY3VsYWNpb25EYXRvcy9MaWJyb3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/Shared/LayoutCounterPersonalizado.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0xheW91dENvdW50ZXJQZXJzb25hbGl6YWRvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

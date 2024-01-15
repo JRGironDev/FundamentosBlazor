@@ -1,0 +1,24 @@
+﻿@page "/libros"
+
+<h3 class="bg-info">Libro 1</h3>
+<p>Id: @libro.Id</p>
+<p>Titulo: @libro.Titulo</p>
+<p>Activo: @libro.Activo</p>
+<p>Paginas: @libro.Paginas</p>
+
+@*One way databinding
+<input type="number" value="@libro.Paginas" />*@
+
+@*Two way databinding*@
+<input type="number" @bind-value="@libro.Paginas" @bind-value:event="oninput" />
+
+@code {
+    Modelos.Libro libro = new Modelos.Libro()
+    {
+        Id = 1,
+        Titulo = "Libro 1",
+        Activo = true,
+        Paginas = 235
+    };
+}
+
