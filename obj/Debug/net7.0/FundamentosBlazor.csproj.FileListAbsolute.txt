@@ -6,6 +6,7 @@
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/bin/Debug/net7.0/FundamentosBlazor.runtimeconfig.json
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/bin/Debug/net7.0/FundamentosBlazor.dll
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/bin/Debug/net7.0/FundamentosBlazor.pdb
+/Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/FundamentosBlazor.csproj.AssemblyReference.cache
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/FundamentosBlazor.GeneratedMSBuildEditorConfig.editorconfig
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/FundamentosBlazor.AssemblyInfoInputs.cache
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/FundamentosBlazor.AssemblyInfo.cs
@@ -13,13 +14,13 @@
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/FundamentosBlazor.MvcApplicationPartsAssemblyInfo.cache
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/FundamentosBlazor.RazorAssemblyInfo.cache
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/FundamentosBlazor.RazorAssemblyInfo.cs
-/Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/staticwebassets.build.json
-/Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/staticwebassets.development.json
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/staticwebassets/msbuild.FundamentosBlazor.Microsoft.AspNetCore.StaticWebAssets.props
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/staticwebassets/msbuild.build.FundamentosBlazor.props
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.FundamentosBlazor.props
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.FundamentosBlazor.props
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/staticwebassets.build.json
+/Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/staticwebassets.development.json
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/scopedcss/bundle/FundamentosBlazor.styles.css
@@ -29,4 +30,3 @@
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/FundamentosBlazor.pdb
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/FundamentosBlazor.genruntimeconfig.cache
 /Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/ref/FundamentosBlazor.dll
-/Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/obj/Debug/net7.0/FundamentosBlazor.csproj.AssemblyReference.cache

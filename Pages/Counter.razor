@@ -1,6 +1,9 @@
-﻿@layout LayoutCounterPersonalizado
+﻿@*@layout LayoutCounterPersonalizado*@
 @page "/counter"
 @page "/counter/{valorInicial:int}"
+
+@using FundamentosBlazor.Pages.Transacciones
+
 @*<PageTitle>Counter</PageTitle>*@
 
 <h2>@encabezadoPagina</h2>
@@ -9,19 +12,44 @@
 
 <p role="status">Current count: @currentCount</p>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<button class="btn btn-primary mb-4" @onclick="IncrementCount">Click me</button>
+
+<br />
+
+@*Eventos*@
+@if (transaccionAprobada)
+{
+    <h3 class="text-success">Transacción ha sido aprobada</h3>
+}
+
+@if (transaccionDeclinada)
+{
+    <h3 class="text-danger">Transacción ha sido declinada</h3>
+
+}
+
+@if (transaccionAprobada == false && transaccionDeclinada == false)
+{
+    <div class="row">
+        <div class="col-12">
+            <Transaccion OnTransaccion="ManejadorOnTransaccion"></Transaccion>
+        </div>
+    </div>
+}
 
 @code {
-
+    private int currentCount = 0;
     private string encabezadoPagina = "Contador";
+
+    //Eventos
+    private bool transaccionAprobada = false;
+    private bool transaccionDeclinada = false;
 
     [Parameter]
     public int valorInicial { get; set; }
 
     [Parameter]
     public string? EncabezadoPagina { get; set; }
-
-    private int currentCount = 0;
 
     protected override void OnParametersSet()
     {
@@ -37,5 +65,21 @@
     private void IncrementCount()
     {
         currentCount++;
+    }
+
+    //Eventos
+    private void ManejadorOnTransaccion(string resultado)
+    {
+            switch (resultado)
+            {
+                case "Aprobada":
+                    transaccionAprobada = true;
+                    break;
+                case "Declinada":
+                    transaccionDeclinada = true;
+                    break;
+                default:
+                    break;
+            }
     }
 }

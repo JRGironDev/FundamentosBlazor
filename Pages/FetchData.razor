@@ -1,5 +1,7 @@
 ﻿@page "/fetchdata"
 @using FundamentosBlazor.Data
+@using FundamentosBlazor.Pages.Transacciones
+
 @inject WeatherForecastService ForecastService
 
 <PageTitle>Weather forecast</PageTitle>
@@ -8,13 +10,15 @@
 
 <p>This component demonstrates fetching data from a service.</p>
 
+<Transaccion OnTransaccion="ManejadorOnTransaccion"></Transaccion>
+
 @if (forecasts == null)
 {
     <p><em>Cargando...</em></p>
 }
 else
 {
-    <table class="table">
+    <table class="table @fondoCss">
         <thead>
             <tr>
                 <th>Date</th>
@@ -40,10 +44,30 @@ else
 @code {
     private WeatherForecast[]? forecasts;
 
+    //Eventos
+    public string fondoCss = "";
+
     protected override async Task OnInitializedAsync()
     {
         await Task.Delay(2000);
 
         forecasts = await ForecastService.GetForecastAsync(DateOnly.FromDateTime(DateTime.Now));
+    }
+
+
+    //Eventos
+    private void ManejadorOnTransaccion(string resultado)
+    {
+        switch (resultado)
+        {
+            case "Aprobada":
+                fondoCss = "bg-success";
+                break;
+            case "Declinada":
+                fondoCss = "bg-danger";
+                break;
+            default:
+                break;
+        }
     }
 }

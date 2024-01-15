@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <Nullable>disabled</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
@@ -12,10 +12,12 @@
     <None Remove="Pages\Demos\" />
     <None Remove="Modelos\" />
     <None Remove="Pages\InfoPersona\" />
+    <None Remove="Pages\Transacciones\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\Demos\" />
     <Folder Include="Modelos\" />
     <Folder Include="Pages\InfoPersona\" />
+    <Folder Include="Pages\Transacciones\" />
   </ItemGroup>
 </Project>

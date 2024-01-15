@@ -1,0 +1,23 @@
+﻿<button class="btn btn-outline-primary mx-2" @onclick="TransaccionAprobada">
+    <span class="oi oi-arrow-circle-top"></span> Aprobar
+</button>
+
+<button class="btn btn-outline-success mx-2" @onclick="TransaccionDeclinada">
+    <span class="oi oi-arrow-circle-bottom"></span> Declinar
+</button>
+
+@code {
+    [Parameter]
+    public EventCallback<string> OnTransaccion { get; set; }
+
+    private void TransaccionAprobada()
+    {
+        OnTransaccion.InvokeAsync("Aprobada");
+    }
+
+    private void TransaccionDeclinada()
+    {
+        OnTransaccion.InvokeAsync("Declinada");
+    }
+}
+
