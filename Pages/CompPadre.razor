@@ -1,4 +1,17 @@
-﻿<h3>Component1</h3>
+﻿@page "/componente-padre"
+
+<h2 class="text-center">Trabajo con Componente Padre/Hijo y RenderFragment</h2>
+
+<CompHijo Mensaje="Primer mensaje desde el componente Padre">
+    <ContenidoHijo>
+        Renderfragment desde el componente Padre
+    </ContenidoHijo>
+    <SegundoContenidoHijo>
+        SegundoRenderfragment desde el componente Padre
+    </SegundoContenidoHijo>
+</CompHijo>
+
+<CompHijo Mensaje="Segundo mensaje desde el componente Padre"></CompHijo>
 
 @code {
 

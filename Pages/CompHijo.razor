@@ -1,6 +1,41 @@
-﻿<h3>Component1</h3>
+﻿<div class="row">
+    <div class="col-6 offset-3">
+        <h3 class="alert alert-success text-center">@Mensaje</h3>
+
+        @if (ContenidoHijo != null)
+        {
+            <h4 class="alert alert-success text-center">@ContenidoHijo</h4>
+        }
+        else
+        {
+            <h4 class="alert alert-danger text-center">Mensaje Vacío</h4>
+        }
+
+
+        @if (SegundoContenidoHijo != null)
+        {
+            <h4 class="alert alert-success text-center">@SegundoContenidoHijo</h4>
+        }
+        else
+        {
+            <h4 class="alert alert-danger text-center">Mensaje Vacío 2</h4>
+        }
+
+        <button class="btn btn-success" @onclick="ManejadorOnClick">Botón Click</button>
+
+    </div>
+</div>
 
 @code {
+    [Parameter]
+    public string Mensaje { get; set; }
 
+    [Parameter]
+    public RenderFragment ContenidoHijo { get; set; }
+
+    [Parameter]
+    public RenderFragment SegundoContenidoHijo { get; set; }
+
+    //Metodo de tipo EventClick
+    public EventCallback<MouseEventArgs> ManejadorOnClick { get; set; }
 }
-

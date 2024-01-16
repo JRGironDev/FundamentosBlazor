@@ -1,8 +1,14 @@
 ﻿<Properties StartupConfiguration="{A0B53D96-467A-4AE2-B431-851151722B0B}|https" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Counter.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/CompPadre.razor">
     <Files>
-      <File FileName="Pages/Counter.razor" Line="8" Column="1" />
-      <File FileName="Pages/FetchData.razor" Line="13" Column="34" />
+      <File FileName="Pages/Counter.razor" Line="17" Column="7" />
+      <File FileName="Pages/FetchData.razor" Line="4" Column="1" />
+      <File FileName="Pages/Transacciones/Transaccion.razor" Line="11" Column="25" />
+      <File FileName="Pages/Index.razor" Line="10" Column="13" />
+      <File FileName="Modelos/Libro.cs" Line="12" Column="27" />
+      <File FileName="Pages/VinculacionDatos/Libros.razor" Line="26" Column="7" />
+      <File FileName="Shared/NavMenu.razor" Line="44" Column="83" />
+      <File FileName="Pages/CompPadre.razor" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,12 +16,9 @@
           <Node name="FundamentosBlazor">
             <Node name="FundamentosBlazor">
               <Node name="Modelos" expanded="True" />
-              <Node name="Pages" expanded="True">
-                <Node name="Demos" expanded="True" />
-                <Node name="InfoPersona" expanded="True" />
-                <Node name="Transacciones" expanded="True" />
-                <Node name="CodigoSegundoPlano.razor" expanded="True" />
-                <Node name="Counter.razor" selected="True" />
+              <Node name="Pages">
+                <Node name="VinculacionDatos" expanded="True" />
+                <Node name="CompPadre.razor" selected="True" />
               </Node>
               <Node name="Shared" expanded="True" />
             </Node>

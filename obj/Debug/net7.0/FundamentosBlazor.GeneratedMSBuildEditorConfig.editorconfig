@@ -24,8 +24,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29kaWdvU2VndW5kb1BsYW5vLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/Pages/CompHijo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcEhpam8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/Pages/Componentes.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/Pages/CompPadre.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcFBhZHJlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/josequinonez/Documents/Blazor/Fundamentos_Blazor/FundamentosBlazor/Pages/Counter.razor]
