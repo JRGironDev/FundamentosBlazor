@@ -7,10 +7,14 @@
 <p>Paginas: @libro.Paginas</p>
 
 @*One way databinding
-<input type="number" value="@libro.Paginas" />*@
+    <input type="number" value="@libro.Paginas" />*@
 
 @*Two way databinding*@
 <input type="number" @bind-value="@libro.Paginas" @bind-value:event="oninput" />
+<br />
+<input type="checkbox" @bind-value="libro.Activo" checked="@(libro.Activo ? "Activo" : null)"/> Está Activo
+<br />
+<span>Este libro está: @(libro.Activo ? "Activo" : "Inactivo")</span>
 
 @code {
     Modelos.Libro libro = new Modelos.Libro()
